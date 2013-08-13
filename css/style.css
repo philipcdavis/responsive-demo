@@ -9,6 +9,8 @@ body {
      margin: 0;
 }
 
+/* Navigation */
+
 nav {
      background-color: #222;
      height: 55px;
@@ -60,6 +62,8 @@ nav ul li a {
      clear: both;
 }
 
+/* Hero Unit */
+
 .hero-unit {
      background: #555 url("../img/hero.jpg") no-repeat;
      background-size: cover;
@@ -77,6 +81,8 @@ nav ul li a {
      text-shadow: 0px 2px 1px #0e1058;
      
 }
+
+/* Container does not grow larger than 60em, however it will get smaller if needed */
 
 .container { 
     max-width: 60em;
